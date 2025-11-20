@@ -95,9 +95,9 @@
     },
     "password": "",
     "pawn": {
-        "legacy_plugins": [],
+        "legacy_plugins": ["mysql"],
         "main_scripts": [
-            "gungame 1"
+            "gamemode 1"
         ],
         "side_scripts": []
     },

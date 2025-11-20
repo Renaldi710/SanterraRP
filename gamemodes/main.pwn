@@ -1,12 +1,28 @@
 #include <open.mp>
+#include <a_mysql>
 
-/*
-     ___      _
-    / __| ___| |_ _  _ _ __
-    \__ \/ -_)  _| || | '_ \
-    |___/\___|\__|\_,_| .__/
-                      |_|
-*/
+new Mysql:db;
+
+
+//enum Player
+enum pDataEnum
+{
+    pID,
+    pName[MAX_PLAYER_NAME],
+    pMoney,
+    pLevel,
+    pAdmin,
+    pSkin,
+    Float:pX,
+    Float:pY,
+    Float:pZ,
+    pInterior,
+    pWorld,
+    Float:pHealth,
+    Float:pArmor,
+    pJob[32]
+};
+new PlayerData[MAX_PLAYERS][pDataEnum];
 
 main()
 {
@@ -19,6 +35,14 @@ main()
 
 public OnGameModeInit()
 {
+	//db connect
+	db = mysql_connect("localhost", "root", "password", "sampdb");
+    if (db == MYSQL_INVALID_HANDLE)
+    {
+        print("[MySQL] Koneksi gagal!");
+    }
+    else print("[MySQL] Koneksi sukses.");
+
 	SetGameModeText("My first open.mp gamemode!");
 	AddPlayerClass(0, 2495.3547, -1688.2319, 13.6774, 351.1646, WEAPON_M4, 500, WEAPON_KNIFE, 1, WEAPON_COLT45, 100);
 	AddStaticVehicle(522, 2493.7583, -1683.6482, 12.9099, 270.8069, -1, -1);
