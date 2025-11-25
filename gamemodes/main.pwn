@@ -16,21 +16,8 @@
     ===========================
          MODULE INCLUDES
     ===========================
-    Tempatkan semua module sistem besar:
-    - auth/login
-    - account
-    - inventory
-    - factions
-    - jobs
-    - vehicles
-    dll.
 */
-
-//#include "modules/auth/auth.pwn"          // contoh modul login
-//#include "modules/core/utils.pwn"         // contoh modul utils
-// #include "modules/vehicle/vehicle.pwn"
-// #include "modules/economy/economy.pwn"
-// tambahkan modul lain di sini...
+#include "../src/modules/account/discord.pwn"
 
 
 //--------------------------------------------------------------
