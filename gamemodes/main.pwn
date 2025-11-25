@@ -1,111 +1,154 @@
-#include <open.mp>
+//--------------------------------------------------------------
+//  Santerra Roleplay - Main Gamemode Entry
+//  Organized Open.MP Structure
+//--------------------------------------------------------------
 
 /*
-     ___      _
-    / __| ___| |_ _  _ _ __
-    \__ \/ -_)  _| || | '_ \
-    |___/\___|\__|\_,_| .__/
-                      |_|
+    ===========================
+         SERVER INCLUDES
+    ===========================
 */
+
+#include <open.mp>
+#include <discord-connector>
+
+/*
+    ===========================
+         MODULE INCLUDES
+    ===========================
+    Tempatkan semua module sistem besar:
+    - auth/login
+    - account
+    - inventory
+    - factions
+    - jobs
+    - vehicles
+    dll.
+*/
+
+//#include "modules/auth/auth.pwn"          // contoh modul login
+//#include "modules/core/utils.pwn"         // contoh modul utils
+// #include "modules/vehicle/vehicle.pwn"
+// #include "modules/economy/economy.pwn"
+// tambahkan modul lain di sini...
+
+
+//--------------------------------------------------------------
+//  MAIN ENTRY
+//--------------------------------------------------------------
 
 main()
 {
-	printf(" ");
-	printf("  -------------------------------");
-	printf("  |  My first open.mp gamemode! |");
-	printf("  -------------------------------");
-	printf(" ");
+    printf(" ");
+    printf("  -------------------------------");
+    printf("  |   Santerra Roleplay (OMP)   |");
+    printf("  -------------------------------");
+    printf(" ");
 }
+
+
+//--------------------------------------------------------------
+//  SERVER CALLBACKS
+//--------------------------------------------------------------
 
 public OnGameModeInit()
 {
-	SetGameModeText("My first open.mp gamemode!");
-	AddPlayerClass(0, 2495.3547, -1688.2319, 13.6774, 351.1646, WEAPON_M4, 500, WEAPON_KNIFE, 1, WEAPON_COLT45, 100);
-	AddStaticVehicle(522, 2493.7583, -1683.6482, 12.9099, 270.8069, -1, -1);
-	return 1;
+    SetGameModeText("SanterraRP - Development Build");
+
+    // Basic spawn example
+    AddPlayerClass(0, 2495.3547, -1688.2319, 13.6774, 351.1646,
+                   WEAPON_M4, 500, WEAPON_KNIFE, 1, WEAPON_COLT45, 100);
+
+    // Example vehicle
+    AddStaticVehicle(522, 2493.7583, -1683.6482, 12.9099, 270.8069, -1, -1);
+
+    return 1;
 }
 
 public OnGameModeExit()
 {
-	return 1;
+    return 1;
 }
 
-/*
-      ___
-     / __|___ _ __  _ __  ___ _ _
-    | (__/ _ \ '  \| '  \/ _ \ ' \
-     \___\___/_|_|_|_|_|_\___/_||_|
 
-*/
+//--------------------------------------------------------------
+//  PLAYER CALLBACKS
+//--------------------------------------------------------------
 
 public OnPlayerConnect(playerid)
 {
-	return 1;
+    return 1;
 }
 
 public OnPlayerDisconnect(playerid, reason)
 {
-	return 1;
+    return 1;
 }
 
 public OnPlayerRequestClass(playerid, classid)
 {
-	SetPlayerPos(playerid, 217.8511, -98.4865, 1005.2578);
-	SetPlayerFacingAngle(playerid, 113.8861);
-	SetPlayerInterior(playerid, 15);
-	SetPlayerCameraPos(playerid, 215.2182, -99.5546, 1006.4);
-	SetPlayerCameraLookAt(playerid, 217.8511, -98.4865, 1005.2578);
-	ApplyAnimation(playerid, "benchpress", "gym_bp_celebrate", 4.1, true, false, false, false, 0, SYNC_NONE);
-	return 1;
+    SetPlayerPos(playerid, 217.8511, -98.4865, 1005.2578);
+    SetPlayerFacingAngle(playerid, 113.8861);
+    SetPlayerInterior(playerid, 15);
+
+    SetPlayerCameraPos(playerid, 215.2182, -99.5546, 1006.4);
+    SetPlayerCameraLookAt(playerid, 217.8511, -98.4865, 1005.2578);
+
+    ApplyAnimation(playerid, "benchpress", "gym_bp_celebrate",
+                   4.1, true, false, false, false, 0, SYNC_NONE);
+
+    return 1;
 }
 
 public OnPlayerSpawn(playerid)
 {
-	SetPlayerInterior(playerid, 0);
-	return 1;
+    SetPlayerInterior(playerid, 0);
+    return 1;
 }
 
 public OnPlayerDeath(playerid, killerid, WEAPON:reason)
 {
-	return 1;
+    return 1;
 }
+
+
+//--------------------------------------------------------------
+//  VEHICLE CALLBACKS
+//--------------------------------------------------------------
 
 public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
 {
-	return 1;
+    return 1;
 }
 
 public OnPlayerExitVehicle(playerid, vehicleid)
 {
-	return 1;
+    return 1;
 }
 
 public OnVehicleSpawn(vehicleid)
 {
-	return 1;
+    return 1;
 }
 
 public OnVehicleDeath(vehicleid, killerid)
 {
-	return 1;
+    return 1;
 }
 
-/*
-     ___              _      _ _    _
-    / __|_ __  ___ __(_)__ _| (_)__| |_
-    \__ \ '_ \/ -_) _| / _` | | (_-<  _|
-    |___/ .__/\___\__|_\__,_|_|_/__/\__|
-        |_|
-*/
+
+//--------------------------------------------------------------
+//  OTHER CALLBACKS — (Tetap disertakan agar kompatibel OMP)
+//--------------------------------------------------------------
 
 public OnFilterScriptInit()
 {
-	printf(" ");
-	printf("  -----------------------------------------");
-	printf("  |  Error: Script was loaded incorrectly |");
-	printf("  -----------------------------------------");
-	printf(" ");
-	return 1;
+    printf(" ");
+    printf("  -----------------------------------------");
+    printf("  |  Error: Script was loaded incorrectly |");
+    printf("  -----------------------------------------");
+    printf(" ");
+    return 1;
 }
 
 public OnFilterScriptExit()
