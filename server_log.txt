@@ -1,0 +1,308 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:13:50] password = ""  (string)
+[10:13:50] 
+[10:13:50] Server Plugins
+[10:13:50] --------------
+[10:13:50]  Loading plugin: sscanf
+[10:13:50] 
+
+[10:13:50]  ===============================
+
+[10:13:50]       sscanf plugin loaded.     
+
+[10:13:50]          Version:  2.8.3        
+
+[10:13:50]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:13:50]  ===============================
+
+[10:13:50]   Loaded.
+[10:13:50]  Loading plugin: streamer
+[10:13:51] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:13:51]   Loaded.
+[10:13:51]  Loading plugin: samp_bcrypt
+[10:13:51] [SampBcrypt] [info]: Version: 0.3.2
+[10:13:51]   Loaded.
+[10:13:51]  Loading plugin: mysql
+[10:13:52]  >> plugin.mysql: R41-4 successfully loaded.
+[10:13:52]   Loaded.
+[10:13:52]  Loading plugin: pawn-memory
+[10:13:52] ========================
+[10:13:52] = Memory access plugin =
+[10:13:52] =       Made by BigETI =
+[10:13:52] = Loaded!              =
+[10:13:52] ========================
+[10:13:52]   Loaded.
+[10:13:52]  Loading plugin: samp-compat
+[10:13:52]   -- samp-compat for 0.3.7-R2 initialized
+[10:13:52]   Loaded.
+[10:13:52]  Loaded 6 plugins.
+
+[10:13:53] 
+[10:13:53] Filterscripts
+[10:13:53] ---------------
+[10:13:53]   Loading filterscript 'Mapping.amx'...
+[10:13:53]   Unable to load filterscript 'Mapping.amx'.
+[10:13:53]   Loaded 0 filterscripts.
+
+[10:13:53]  
+[10:13:53]  ========================================== 
+[10:13:53]  |                                        | 
+[10:13:53]  |    Generating code, this may take a    | 
+[10:13:53]  |           little bit of time.          | 
+[10:13:53]  |                                        | 
+[10:13:53]  |             Please wait...             | 
+[10:13:53]  |                                        | 
+[10:13:53]  ========================================== 
+[10:13:53]  |                                        | 
+[10:13:53]  | Note that this code generation works   | 
+[10:13:53]  | best with the JIT plugin, which you    | 
+[10:13:53]  | are not currently using.  Get it here: | 
+[10:13:53]  |                                        | 
+[10:13:53]  |        https://git.io/jit-plugin       | 
+[10:13:53]  |                                        | 
+[10:13:53]  ========================================== 
+[10:13:53]  
+[10:13:53]  
+[10:13:53]  
+[10:13:53]  
+[10:13:53]  ========================================== 
+[10:13:53]  |                                        | 
+[10:13:53]  |         YSI version 5.05.0301          | 
+[10:13:53]  |         By Alex "Y_Less" Cole          | 
+[10:13:53]  |                                        | 
+[10:13:53]  | Unable to check the latest YSI version | 
+[10:13:53]  | - please watch the forums and github:  | 
+[10:13:53]  |                                        | 
+[10:13:53]  |   https://git.io/5.x                   | 
+[10:13:53]  |                                        | 
+[10:13:53]  ========================================== 
+[10:13:53]  
+[10:13:53] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:13:53] [MySQL] - Connection Failed!
+[10:13:53] [ Xyronite Gamemode Loaded ]
+[10:13:53] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:16:47] password = ""  (string)
+[10:16:47] 
+[10:16:47] Server Plugins
+[10:16:47] --------------
+[10:16:47]  Loading plugin: sscanf
+[10:16:47] 
+
+[10:16:47]  ===============================
+
+[10:16:47]       sscanf plugin loaded.     
+
+[10:16:47]          Version:  2.8.3        
+
+[10:16:47]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:16:47]  ===============================
+
+[10:16:47]   Loaded.
+[10:16:47]  Loading plugin: streamer
+[10:16:47] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[10:16:47]   Loaded.
+[10:16:47]  Loading plugin: samp_bcrypt
+[10:16:47] [SampBcrypt] [info]: Version: 0.3.2
+[10:16:47]   Loaded.
+[10:16:47]  Loading plugin: mysql
+[10:16:47]  >> plugin.mysql: R41-4 successfully loaded.
+[10:16:47]   Loaded.
+[10:16:47]  Loading plugin: pawn-memory
+[10:16:47] ========================
+[10:16:47] = Memory access plugin =
+[10:16:47] =       Made by BigETI =
+[10:16:47] = Loaded!              =
+[10:16:47] ========================
+[10:16:47]   Loaded.
+[10:16:47]  Loading plugin: samp-compat
+[10:16:47]   -- samp-compat for 0.3.7-R2 initialized
+[10:16:47]   Loaded.
+[10:16:47]  Loaded 6 plugins.
+
+[10:16:47] 
+[10:16:47] Filterscripts
+[10:16:47] ---------------
+[10:16:47]   Loading filterscript 'Mapping.amx'...
+[10:16:47]   Unable to load filterscript 'Mapping.amx'.
+[10:16:47]   Loaded 0 filterscripts.
+
+[10:16:47]  
+[10:16:47]  ========================================== 
+[10:16:47]  |                                        | 
+[10:16:47]  |    Generating code, this may take a    | 
+[10:16:47]  |           little bit of time.          | 
+[10:16:47]  |                                        | 
+[10:16:47]  |             Please wait...             | 
+[10:16:47]  |                                        | 
+[10:16:47]  ========================================== 
+[10:16:47]  |                                        | 
+[10:16:47]  | Note that this code generation works   | 
+[10:16:47]  | best with the JIT plugin, which you    | 
+[10:16:47]  | are not currently using.  Get it here: | 
+[10:16:47]  |                                        | 
+[10:16:47]  |        https://git.io/jit-plugin       | 
+[10:16:47]  |                                        | 
+[10:16:47]  ========================================== 
+[10:16:47]  
+[10:16:47]  
+[10:16:47]  
+[10:16:47]  
+[10:16:47]  ========================================== 
+[10:16:47]  |                                        | 
+[10:16:47]  |         YSI version 5.05.0301          | 
+[10:16:47]  |         By Alex "Y_Less" Cole          | 
+[10:16:47]  |                                        | 
+[10:16:47]  | Unable to check the latest YSI version | 
+[10:16:47]  | - please watch the forums and github:  | 
+[10:16:47]  |                                        | 
+[10:16:47]  |   https://git.io/5.x                   | 
+[10:16:47]  |                                        | 
+[10:16:47]  ========================================== 
+[10:16:47]  
+[10:16:47] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:16:47] [MySQL] - Connection Estabilished!
+[10:16:47] [ Xyronite Gamemode Loaded ]
+[10:16:47] Number of vehicle models: 0
+[10:17:08] [connection] incoming connection: 127.0.0.1:63342 id: 0
+[10:17:08] [join] Reitz has joined the server (0:127.0.0.1)
+[10:17:30] [nick] Reitz nick changed to Secret_Reitz
+[10:19:08] [part] Secret_Reitz has left the server (0:1)
+[10:19:24] [connection] incoming connection: 127.0.0.1:55848 id: 0
+[10:19:24] [join] Reitz has joined the server (0:127.0.0.1)
+[10:19:38] [nick] Reitz nick changed to Secret_Reitz
+[10:22:30] [part] Secret_Reitz has left the server (0:1)
+[10:23:16] [connection] incoming connection: 127.0.0.1:57900 id: 0
+[10:23:16] [join] Reitz has joined the server (0:127.0.0.1)
+[10:23:21] [nick] Reitz nick changed to Secret_Reitz
+[10:28:44] [nick] Secret_Reitz nick changed to Reitz
+[10:28:48] [nick] Reitz nick changed to Secret_Reitz
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[07:39:55] password = ""  (string)
+[07:39:55] 
+[07:39:55] Server Plugins
+[07:39:55] --------------
+[07:39:55]  Loading plugin: sscanf
+[07:39:56] 
+
+[07:39:56]  ===============================
+
+[07:39:56]       sscanf plugin loaded.     
+
+[07:39:56]          Version:  2.8.3        
+
+[07:39:56]   (c) 2018 Alex "Y_Less" Cole  
+
+[07:39:56]  ===============================
+
+[07:39:56]   Loaded.
+[07:39:56]  Loading plugin: streamer
+[07:39:56] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[07:39:56]   Loaded.
+[07:39:56]  Loading plugin: samp_bcrypt
+[07:39:57] [SampBcrypt] [info]: Version: 0.3.2
+[07:39:57]   Loaded.
+[07:39:57]  Loading plugin: mysql
+[07:39:57]  >> plugin.mysql: R41-4 successfully loaded.
+[07:39:57]   Loaded.
+[07:39:57]  Loading plugin: pawn-memory
+[07:39:58] ========================
+[07:39:58] = Memory access plugin =
+[07:39:58] =       Made by BigETI =
+[07:39:58] = Loaded!              =
+[07:39:58] ========================
+[07:39:58]   Loaded.
+[07:39:58]  Loading plugin: samp-compat
+[07:39:58]   -- samp-compat for 0.3.7-R2 initialized
+[07:39:58]   Loaded.
+[07:39:58]  Loaded 6 plugins.
+
+[07:39:58] 
+[07:39:58] Filterscripts
+[07:39:58] ---------------
+[07:39:58]   Loading filterscript 'Mapping.amx'...
+[07:39:58]   Unable to load filterscript 'Mapping.amx'.
+[07:39:58]   Loaded 0 filterscripts.
+
+[07:39:58]  
+[07:39:58]  ========================================== 
+[07:39:58]  |                                        | 
+[07:39:58]  |    Generating code, this may take a    | 
+[07:39:58]  |           little bit of time.          | 
+[07:39:58]  |                                        | 
+[07:39:58]  |             Please wait...             | 
+[07:39:58]  |                                        | 
+[07:39:58]  ========================================== 
+[07:39:58]  |                                        | 
+[07:39:58]  | Note that this code generation works   | 
+[07:39:58]  | best with the JIT plugin, which you    | 
+[07:39:58]  | are not currently using.  Get it here: | 
+[07:39:58]  |                                        | 
+[07:39:58]  |        https://git.io/jit-plugin       | 
+[07:39:58]  |                                        | 
+[07:39:58]  ========================================== 
+[07:39:58]  
+[07:39:58]  
+[07:39:58]  
+[07:39:58]  
+[07:39:58]  ========================================== 
+[07:39:58]  |                                        | 
+[07:39:58]  |         YSI version 5.05.0301          | 
+[07:39:58]  |         By Alex "Y_Less" Cole          | 
+[07:39:58]  |                                        | 
+[07:39:58]  | Unable to check the latest YSI version | 
+[07:39:58]  | - please watch the forums and github:  | 
+[07:39:58]  |                                        | 
+[07:39:58]  |   https://git.io/5.x                   | 
+[07:39:58]  |                                        | 
+[07:39:58]  ========================================== 
+[07:39:58]  
+[07:39:58] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[07:39:58] [MySQL] - Connection Estabilished!
+[07:39:58] [ Xyronite Gamemode Loaded ]
+[07:39:58] Number of vehicle models: 0
+[07:41:25] [connection] incoming connection: 127.0.0.1:59792 id: 0
+[07:41:25] [join] Konten has joined the server (0:127.0.0.1)
+[07:42:11] [nick] Konten nick changed to Tes_Aja
+[07:43:59] [chat] [Tes_Aja]: biz sistem
+[07:44:45] [chat] [Tes_Aja]: semua barang dsini belum bisa di pake ya karena ini gamemode belum selesai
+[07:46:00] [chat] [Tes_Aja]: makanan dah bsa di pakai
+[07:46:06] [chat] [Tes_Aja]: inventory sistem
+[07:46:13] [chat] [Tes_Aja]: tekan Y
+[07:46:55] [chat] [Tes_Aja]: ini gamemode cocok bngt buat yg mau buat gm sendiri karena msh dikit fiturny
+[07:49:33] [part] Tes_Aja has left the server (0:1)
